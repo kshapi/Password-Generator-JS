@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  width: 300px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 2px;
+  background: #B1C8CA;
+  overflow: hidden;
+  user-select: none;
+}
+.inputBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+.inputBox input {
+  height: 42px;
+  width: 85%;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.inputBox i {
+  position: relative;
+  right: 30px;
+  height: 30px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checks {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  position: relative;
+  right: 50px;
+}
+.checks .number, .checks .symbol, .checks .upperCase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+.number {
+  position: relative;
+  left: 2px;
+}
+.symbol {
+  position: relative;
+}
+.upperCase {
+  position: relative;
+  left: 12px;
+}
+label {
+  margin-left: 6px;
+}
+.length {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.length input {
+  width: 70%;
+  position: relative;
+  left: 17px;
+  appearance: none;
+  height: 5px;
+  background: #8F8D97;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.length span {
+  position: absolute;
+  right: 90px;
+  top: 5px;
+}
+.length label {
+  position: relative;
+  right: 30px;
+  padding: 5px 0px;
+}
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  padding: 13px 30px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  background: #569D7E;
+  color: #fff;
+}
